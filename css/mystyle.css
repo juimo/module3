@@ -13,7 +13,7 @@ h1 {
  text-align: center;
  font-size: 175%;
  margin: 0;
- margin-top: 25px;
+ margin-top: 100px;
  margin-bottom: 20px;   
  color: #cc3399;
 }
@@ -71,7 +71,38 @@ p {
     background-color: #fff;
     color: #ff33cc;
     cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 }
+
+
+/*NAV BAR*/
+
+.navbar-default {
+   float: right;
+}
+
+#header-nav {
+    background-color: #00b3b3;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 {
+    color: #ff9933;
+    font-size: 150%;
+    text-align: left;
+    margin: 0;
+}
+.container {
+    margin: 0;
+    vertical-align: middle;
+}
+
+
+
+
 
 /* Responsive Framework. */
 .row {
@@ -80,6 +111,7 @@ p {
     padding: 15px;
     
 }
+
 
 /********** Desktop **********/
 @media (min-width: 992px) {
@@ -166,4 +198,27 @@ p {
         width: 100%;
     }
 }
+
+@media (max-width: 767px) {
+    .navbar {
+        background-color: #fff;
+        border-radius: 0;
+        border: 0;
+    }
+    .navbar-header {
+        background-color: #800080;
+        border-radius: 0;
+        border: 1px solid #000;
+    }
+    .navbar-default .navbar-collapse {
+        background-color: #008000;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-top: 1px solid #000;
+        border-right: 2px solid #000;
+        border-left: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+}
+
 
